@@ -1,0 +1,17 @@
+Chabot: Hello, I'm leo, what is your name?
+client: I'm Joshua, Joshua
+Chatbot: Hello, Joshua!!!, welcome to Curlcss. Below are things i can help you with.
+	1: How does headless ui works?
+	2: How does form input tags work?
+	3: is there a payment plan to access all javascript functions for Curlui?
+	4: how long does my subscription last using the basic plan?
+
+note: if client input any of the functions above, a link to an article containing the above questions should be displayed.
+and  if client input something else. the chatbot should suggest the below methods
+
+chatbot: it seems you have a different input, would you like me to transfer you to the customer care online?
+	enter "y" for yes and "n" for no.
+
+if user enters "y" the chatbot dialogue should display "connecting to support"
+if user enters "n" the chatbot dialogue should display "would you like to start over ?" enter "y" for yes and "n" for end chat.
+if otherwise the user enters a wrong input the chatbot should display the previous question
